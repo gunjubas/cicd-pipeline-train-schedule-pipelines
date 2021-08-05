@@ -9,5 +9,4 @@ node {
   post {
       archiveArtifacts artifacts: '*', fingerprint: true
     }
-  }
 }
