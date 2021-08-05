@@ -1,6 +1,5 @@
 node {
-  agent { any }
-  stages{ 
+  stages { 
     stage ('Build') {
       step {
         sh './gradlew build --no-daemon'
